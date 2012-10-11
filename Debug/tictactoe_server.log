@@ -1,0 +1,19 @@
+﻿Build started 2012/10/11 下午 07:12:03.
+     1>Project "C:\Users\user\Documents\Visual Studio 2010\Projects\tictactoe_server\tictactoe_server.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\tictactoe_server.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\Desktop\server.c
+         server.c
+     1>c:\users\user\desktop\server.c(16): error C2039: 'MOVE' : is not a member of 'msg_t'
+                 c:\users\user\desktop\server.c(4) : see declaration of 'msg_t'
+     1>c:\users\user\desktop\server.c(82): error C2039: 'WIN' : is not a member of 'msg_t'
+                 c:\users\user\desktop\server.c(4) : see declaration of 'msg_t'
+     1>c:\users\user\desktop\server.c(82): error C2039: 'TIE' : is not a member of 'msg_t'
+                 c:\users\user\desktop\server.c(4) : see declaration of 'msg_t'
+     1>c:\users\user\desktop\server.c(82): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "C:\Users\user\Documents\Visual Studio 2010\Projects\tictactoe_server\tictactoe_server.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.80
